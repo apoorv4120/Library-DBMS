@@ -1,0 +1,10 @@
+The databases have all set. But not until the connection is established. Let’s establish it first. As said earlier, the connections should be outside the main class without having any kind of indentation, maybe just right after the module’s import. Or right after the database ‘admin’.
+
+#Connection for admin database
+db=sqlite3.connect('admin.db')
+
+#Connection for StoreBooks database
+dbstore=sqlite3.connect('StoreBooks.db')
+
+#Connection for StudentsData database
+dbstudents=sqlite3.connect('StudentsData.db')
